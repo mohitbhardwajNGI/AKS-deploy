@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     return jsonify({
-        "message": "Hello from Python running inside AKS cluster",
+        "message": "Hello from .Net running inside AKS cluster",
         "status": "success"
     })
 
